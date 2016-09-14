@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="553" started-at="2016-09-14T00:20:44Z" finished-at="2016-09-14T00:20:45Z">
+  <suite name="Default suite" duration-ms="32" started-at="2016-09-14T00:59:44Z" finished-at="2016-09-14T00:59:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="553" started-at="2016-09-14T00:20:44Z" finished-at="2016-09-14T00:20:45Z">
-      <class name="mq.data_driven_testing_demo.Script01">
-        <test-method status="PASS" signature="test_method01()[pri:0, instance:mq.data_driven_testing_demo.Script01@326de728]" name="test_method01" duration-ms="538" started-at="2016-09-13T20:20:44Z" finished-at="2016-09-13T20:20:45Z">
+    <test name="Default test" duration-ms="32" started-at="2016-09-14T00:59:44Z" finished-at="2016-09-14T00:59:44Z">
+      <class name="mq.data_driven_testing_demo.Script02">
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:mq.data_driven_testing_demo.Script02@c39f790]" name="test01" duration-ms="9" started-at="2016-09-13T20:59:44Z" data-provider="data-provider" finished-at="2016-09-13T20:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data one]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_method01 -->
-      </class> <!-- mq.data_driven_testing_demo.Script01 -->
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:mq.data_driven_testing_demo.Script02@c39f790]" name="test01" duration-ms="1" started-at="2016-09-13T20:59:44Z" data-provider="data-provider" finished-at="2016-09-13T20:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test01(java.lang.String)[pri:0, instance:mq.data_driven_testing_demo.Script02@c39f790]" name="test01" duration-ms="1" started-at="2016-09-13T20:59:44Z" data-provider="data-provider" finished-at="2016-09-13T20:59:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+      </class> <!-- mq.data_driven_testing_demo.Script02 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
