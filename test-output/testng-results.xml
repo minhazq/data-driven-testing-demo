@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="553" started-at="2016-09-14T00:20:44Z" finished-at="2016-09-14T00:20:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="553" started-at="2016-09-14T00:20:44Z" finished-at="2016-09-14T00:20:45Z">
+      <class name="mq.data_driven_testing_demo.Script01">
+        <test-method status="PASS" signature="test_method01()[pri:0, instance:mq.data_driven_testing_demo.Script01@326de728]" name="test_method01" duration-ms="538" started-at="2016-09-13T20:20:44Z" finished-at="2016-09-13T20:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_method01 -->
+      </class> <!-- mq.data_driven_testing_demo.Script01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
