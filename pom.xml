@@ -29,5 +29,13 @@
     <version>3.14</version>
 </dependency>
 
+<!-- TestNG -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.10</version>
+</dependency>
+
+
   </dependencies>
 </project>
